@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Drunken Sundaes`,
+    description: `Offering the best cocktails and Ice Cream themed desserts.`,
+    author: `@CraigHeslop`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +15,20 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: '2g8odam0olbr',
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: '169db85c19e6480e343a8161ac80a55be03ea8e28bed794cca9ab041d8bf5e45',
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
