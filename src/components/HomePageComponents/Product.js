@@ -38,7 +38,7 @@ export const ProductWrapper = styled.div`
     text-transform: uppercase;
   }
   .name {
-    color: ${styles.colors.mainWhite};
+    color: ${styles.colors.mainBlack};
     margin-top: 0.5rem;
     border-bottom: 2px solid ${styles.colors.mainYellow};
   }
@@ -53,7 +53,7 @@ export const ProductWrapper = styled.div`
     text-transform: lowercase;
   }
   .description {
-    color: ${styles.colors.mainYellow};
+    color: ${styles.colors.mainGrey};
     margin-top: 0.5rem;
     word-spacing: 0.2rem;
     font-style: italic;
