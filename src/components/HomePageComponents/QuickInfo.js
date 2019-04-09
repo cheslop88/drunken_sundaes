@@ -7,13 +7,10 @@ export default class QuickInfo extends Component {
   render() {
     return (
       <Section>
-        <Title message="let us tell you" title="our misson" />
+        <Title title="Our Story" />
         <QuickInfoWrapper>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-            blanditiis dolorum quae doloremque molestias expedita, eum voluptas
-            distinctio! Molestiae fuga temporibus nemo non vel mollitia nesciunt
-            quaerat facere voluptate earum.
+            Want to find out more about us. Click here to find out more:
           </p>
           <Link to="/about/" style={{ textDecoration: 'none' }}>
             <SectionButton style={{ margin: '2rem auto' }}>about</SectionButton>
