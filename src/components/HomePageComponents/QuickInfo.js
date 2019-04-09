@@ -10,7 +10,7 @@ export default class QuickInfo extends Component {
         <Title title="Our Story" />
         <QuickInfoWrapper>
           <p className="text">
-            Want to find out more about us. Click here to find out more:
+            From humble beginnings to a worldwide brand. Want to find out more about us. Click here to find out more:
           </p>
           <Link to="/about/" style={{ textDecoration: 'none' }}>
             <SectionButton style={{ margin: '2rem auto' }}>about</SectionButton>
